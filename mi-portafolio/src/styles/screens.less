@@ -1,0 +1,23 @@
+
+
+@mobile: 0px;
+@tablet: 1024px;
+@desktop: 1200px;
+
+container {
+  width: 100%;
+  padding: 20px;
+}
+
+@media (min-width: @tablet) {
+  .container {
+    width: 75%;
+  }
+}
+
+
+@media (min-width: @desktop) {
+  .container {
+    width: 50%;
+  }
+}
